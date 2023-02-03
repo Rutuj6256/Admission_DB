@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-size: 100% 100%;
+        
+}
+ 
+</style>
+</head>
+<body>
+
+</style>
+  <h1 style="color:rgb(137, 52, 190)" style="text-align:center"> Admission Prediction </h1>
+  <h2> Enter Values Below </h2>
+  <form method="POST" action="/admission/prediction">
+    
+
+
+      <label style="color:rgb(238, 81, 89)"  ><b>GRE Score:</b></label>
+      <input type = "text" name = "GRE_Score">
+      </select>
+
+      <br>
+      <br>
+
+      <label style="color:rgb(238, 81, 89)" ><b>TOEFL Score:</b></label>
+      <input type = "text" name = "TOEFL_Score">
+      </select>
+
+      <br>
+      <br>
+
+      <label style="color:rgb(238, 81, 89)" ><b>University Rating:</b></label>
+      <input type = "text" name = "University_Rating">
+      </select>
+
+      <br>
+      <br>
+
+      <label style="color:rgb(238, 81, 89)" ><b>SOP :</b></label>
+      <input type = "text" name = "SOP">
+      </select>
+
+      <br>
+      <br>
+
+      <label style="color:rgb(238, 81, 89)" ><b>LOR :</b></label>
+      <input type = "text" name = "LOR">
+      </select>
+
+      <br>
+      <br>
+
+      <label style="color:rgb(238, 81, 89)" ><b>CGPA :</b</label>
+      <input type = "text" name = "CGPA">
+      </select>
+
+      <br>
+      <br>
+
+      <label style="color:rgb(238, 81, 89)" ><b>Research :</b></label>
+      <input type = "text" name = "Research">
+      </select>
+
+      <br>
+      <br>
+
+      <input type = "submit" value="SUBMIT">
+
+      <br>
+      
+      <h4 style="display: inline-block" > <strong>You Will <h4 style="color:rgb(60, 15, 143)"> {{ prediction }} </h4> </strong></h4>
+      
+
+  </form>
+</body>
+</html>
