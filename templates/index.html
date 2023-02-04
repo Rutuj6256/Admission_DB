@@ -2,9 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Admission</title>
 <style>
 body {
-  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+  background-image: url("https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1024,h_613/https://www.iimtindia.net/Blog/wp-content/uploads/2021/08/shutterstock_517670749-1024x613-1.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
@@ -14,69 +15,69 @@ background-size: 100% 100%;
  
 </style>
 </head>
-<body>
+<body> 
 
 </style>
-  <h1 style="color:rgb(137, 52, 190)" style="text-align:center"> Admission Prediction </h1>
+<h1 style="color:tomato;text-align: center;"><strong>Admission Prediction</strong> </h1>
   <h2> Enter Values Below </h2>
   <form method="POST" action="/admission/prediction">
     
 
 
-      <label style="color:rgb(238, 81, 89)"  ><b>GRE Score:</b></label>
-      <input type = "text" name = "GRE_Score">
+      <label style="color:rgb(4, 1, 10)"  ><b>GRE Score:</b></label>
+      <input type = "text" name = "GRE_Score" placeholder="between 0 to 340 " size="20px">
       </select>
 
       <br>
       <br>
 
-      <label style="color:rgb(238, 81, 89)" ><b>TOEFL Score:</b></label>
-      <input type = "text" name = "TOEFL_Score">
+      <label style="color:rgb(4, 1, 10)" ><b>TOEFL Score:</b></label>
+      <input type = "text" name = "TOEFL_Score" placeholder="between 0 to 120 " size="20px">
       </select>
 
       <br>
       <br>
 
-      <label style="color:rgb(238, 81, 89)" ><b>University Rating:</b></label>
-      <input type = "text" name = "University_Rating">
+      <label style="color:rgb(4, 1, 10)" ><b>University Rating:</b></label>
+      <input type = "text" name = "University_Rating" placeholder="between 0 to 5 " size="20px">
       </select>
 
       <br>
       <br>
 
-      <label style="color:rgb(238, 81, 89)" ><b>SOP :</b></label>
-      <input type = "text" name = "SOP">
+      <label style="color:rgb(4, 1, 10)" ><b>SOP :</b></label>
+      <input type = "text" name = "SOP" placeholder="between 0 to 5 " size="20px">
       </select>
 
       <br>
       <br>
 
-      <label style="color:rgb(238, 81, 89)" ><b>LOR :</b></label>
-      <input type = "text" name = "LOR">
+      <label style="color:rgb(4, 1, 10)" ><b>LOR :</b></label>
+      <input type = "text" name = "LOR" placeholder="between 0 to 5 " size="20px">
       </select>
 
       <br>
       <br>
 
-      <label style="color:rgb(238, 81, 89)" ><b>CGPA :</b</label>
-      <input type = "text" name = "CGPA">
+      <label style="color:rgb(4, 1, 10)" ><b>CGPA :</b</label>
+      <input type = "text" name = "CGPA" placeholder="between 0 to 10 " size="20px">
       </select>
 
       <br>
       <br>
 
-      <label style="color:rgb(238, 81, 89)" ><b>Research :</b></label>
-      <input type = "text" name = "Research">
+      <label style="color:rgb(4, 1, 10)" ><b>Research :</b></label>
+      <input type = "text" name = "Research" placeholder="between 0 or 1 " size="20px">
       </select>
 
       <br>
       <br>
 
-      <input type = "submit" value="SUBMIT">
+      <input style="color:rgb(78, 24, 186)" type = "submit" value="SUBMIT">
 
       <br>
       
-      <h4 style="display: inline-block" > <strong>You Will <h4 style="color:rgb(60, 15, 143)"> {{ prediction }} </h4> </strong></h4>
+      <h4 style="display: inline-block" > <strong>You Will <h4 style="color:rgb(255, 255, 255)"> {{ prediction }} </h4> </strong></h4>
       
 
   </form>
